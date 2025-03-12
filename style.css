@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWxxNWl2c3VzZnh5czBrMnZiM3U5NTBnc2hpYzI5dmdxdWw0bDB5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2tkUqM3SangJj2/giphy.gif");
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
 }
 
 h1{
+  font-size: 30px;
+  color: white;
+}
+h2{
   font-size: 30px;
   color: white;
 }

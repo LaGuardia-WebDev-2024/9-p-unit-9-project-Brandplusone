@@ -33,7 +33,7 @@ var drawScene = function(){
     image(sceneImage, 0, 0);
     
     fill(0,0,0);
-    rect(0, 350, 600, 100);
+    rect(0, 550, 600, 100);
       
     fill(255,255,255);
     textSize(20);

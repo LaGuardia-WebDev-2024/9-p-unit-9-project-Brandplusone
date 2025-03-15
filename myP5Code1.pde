@@ -26,7 +26,7 @@ draw = function(){
       sceneText = "Where do you want to go?  [Press f for forest and c for cave]";
     } 
    }
-  
+  If(mousePressed) {text ("try again", random(0,600), random(0, 400))}
 };
 
 var drawScene = function(){

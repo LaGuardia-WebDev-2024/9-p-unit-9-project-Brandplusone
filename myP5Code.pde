@@ -3,8 +3,8 @@ setup = function() {
     frameRate(99);
 };
  
-var y=0; //position of the ball
-var speed = 2; 
+var y = random(50, 350); 
+var speed = random(1, 5);
 
 var answer = 1;
 //draw Function - will run repeatedly
@@ -35,13 +35,13 @@ y+=speed;
   answer = round(random(2,7));
  };
 if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("ASK", 176, 200);
+    text("AWAY", 159, 229); 
   }
   
     if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("ASK", 176, 200);
+    text("AWAY", 159, 229); 
   }
   
   
@@ -77,7 +77,7 @@ if (answer == 2){
  }
 
  if(answer == 7){
- text("you're cooked",190 , 200);
+ text("you're cooked buddy",190 , 200);
  
  
  }
